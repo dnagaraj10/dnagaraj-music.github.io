@@ -19,12 +19,14 @@ body {
 
 #name {
 	font-weight: 600;
-	font-size: 5em;
+	font-size: 6em;
 	color: black;
+	text-align: center;
 }
 
 #description {
 	color: white;
+	text-align: center;
 }
 
 .ct-btn-scroll {
