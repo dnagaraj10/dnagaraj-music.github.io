@@ -19,7 +19,7 @@ body {
 
 #name {
 	font-weight: 600;
-	font-size: 6em;
+	font-size: 5em;
 	color: black;
 	text-align: center;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 #sectionHeader {
-	padding-top: 10em;
+	padding-top: 1em;
 	text-align: center;
 	color: #5B7485;
 }
