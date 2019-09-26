@@ -5,8 +5,9 @@ body {
 #header {
     background: #F7E6F5;
     margin-bottom: 0;
+	margin-right: 0;
     height: 100vh;
- 	position: relative;
+ position: relative;
 }
 
 #headerItems {
@@ -18,7 +19,7 @@ body {
 }
 
 #name {
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 5em;
 	color: black;
 	text-align: center;
