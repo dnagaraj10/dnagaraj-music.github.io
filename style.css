@@ -1,0 +1,158 @@
+body {
+	font-family: 'Hind', sans-serif;
+}
+
+#header {
+    background: #abdbf2;
+    margin-bottom: 0;
+    height: 100vh;
+ 	position: relative;
+}
+
+#headerItems {
+	position: absolute;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	text-align: center;	
+  	max-width: 100%;
+}
+
+#name {
+	font-weight: 600;
+	font-size: 5em;
+	color: black;
+}
+
+#description {
+	color: white;
+}
+
+.ct-btn-scroll {
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 70vh;
+  z-index: 9;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+
+#sectionHeader {
+	padding-top: 2em;
+	text-align: center;
+	color: #5B7485;
+}
+
+#subsection {
+	margin-top: 2em;
+}
+
+#avatar {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+#company {
+	font-size: 1.8em;
+	color: #5B7485;
+}
+
+#role {
+	font-size: 1.3em;
+	color: #6AB8EE;
+}
+
+#detail {
+	text-align: left;
+	font-size: 1em;
+	color: #91d0ee;	
+}
+
+#time {
+	padding-left: 10px;
+}
+
+.fa {
+    font-size: .75em;
+   	padding-bottom: 0.2em;
+}
+
+#workIMG {
+  max-width: 200px;
+  width:100%;
+}
+
+#OXT {
+  margin-left: 0.6em;
+}
+
+.card {
+	width:100%;
+	margin-top: 1em;
+}
+
+.card-title {
+	color: #6AB8EE;
+}
+
+.card-text {
+	color: #5B7485;
+}
+
+#contactInfo {
+	font-size: 1.2em;
+	color: #6AB8EE;
+}
+
+#contactInfo:hover{
+	color: #29353d;
+	font-weight: 550;
+}
+
+.thumb { 
+  position: relative;
+  vertical-align: middle;
+  margin-top: 2em;
+}
+
+.hover-opaque {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5B7485;
+}
+
+.thumb:hover .hover-opaque {
+    opacity: 0.9;
+}
+
+#hoverTitle {
+  color: white;
+  font-size: 1.3em;
+  position: absolute;
+  top: 1em;
+  left: 1.3em;
+  text-align: left;
+  font-weight: 600;
+  width: 80%;
+}
+
+#hoverText {
+  color: white;
+  font-size: 0.85em;
+  position: absolute;
+  top: 6.2em;
+  left: 2em;
+  text-align: left;
+  width: 85%;
+}
